@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% for i in for %}
+        <h1>имя клуба: {{name}}</h1>
+        <h1>сколько голов за сезон: {{goal}}</h1>
+        <h1>о клубе: {{discrip}}</h1>
+        <h1>возраст клуба: {{age}}</h1>
+        <h1>город клуба: {{city}}</h1>
+        <h1>страна клуба: {{country}}</h1>
+    {% endfor %}
+</body>
+</html>
